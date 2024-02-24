@@ -26,7 +26,11 @@ export default function Movie({ title, id, poster_path }: Props) {
         height={240}
         onClick={onClick}
       />
-      <Link href={`/movies/${id}`}>{title}</Link>
+      <Link 
+        // prefetch
+        href={`/movies/${id}`}>
+        {title}
+      </Link>
     </div>
   );
 }
