@@ -1,7 +1,5 @@
-import React from 'react'
-
 export default function Sales() {
   return (
-    <h1>Sales team</h1>
+    <h1>Sales Jobs</h1>
   )
 }
